@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const MONGODB_URI = 'mongodb+srv://nabilnalakath:PqkQpDFnfKvhN8q1@cluster0.8f0oshz.mongodb.net/?retryWrites=true&w=majority';
 const SLACK_SIGNING_SECRET = '3cc53d991a4b210d94356e8903319732';
-const SLACK_BOT_TOKEN = 'xoxb-6320984475873-6331305729920-EjG6Lm62kuV5mbhowen7GWhR';
+const SLACK_BOT_TOKEN = 'xoxp-6320984475873-6293814352359-6301955250502-e3467367ba48e13b4c7d9e73de1df6ea';
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
